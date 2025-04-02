@@ -64,12 +64,15 @@ Now that the APIs are enabled, you need to create credentials (a service account
    - Update the `CREDENTIALS_FILE` variable in your script to match the filename:
      ```python
      CREDENTIALS_FILE = 'property-analysis-credentials.json'
-
-  - Update the USER_EMAIL variable with your actual email address:
-  - USER_EMAIL = 'your-email@gmail.com'
+     ```
+   - Update the USER_EMAIL variable with your actual email address:
+    ```python
+    USER_EMAIL = 'your-email@gmail.com'
+    ```
 
 # Troubleshooting
 - If "Enable" is grayed out: The API might already be enabled. Check the Dashboard to confirm.
 - If you get errors later: Ensure your project has billing enabled (Google Cloud requires it for some API usage, though these APIs have a free tier).
 - Lost in the interface?: Use the search bar at the top of Google Cloud Console and type "Sheets API" or "Drive API" to jump directly to those pages.
-- Once you’ve enabled the APIs and set up the credentials, your script should work with Google Sheets.
+
+Once you’ve enabled the APIs and set up the credentials, your script should work with Google Sheets.
